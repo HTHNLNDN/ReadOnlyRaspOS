@@ -1,0 +1,5 @@
+package1:
+  name: "Django"
+  version: 1
+  path: "~/ReadOnlyRaspberrian/YamlReader/example.yaml" #we have to make it possible to use both a package manager and files found on the internet
+  requirements: ['your', 'mom']
