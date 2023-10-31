@@ -1,5 +1,22 @@
 package1:
   name: "Django"
-  version: 1
-  path: "~/ReadOnlyRaspberrian/YamlReader/example.yaml" #we have to make it possible to use both a package manager and files found on the internet
-  requirements: ['your', 'mom']
+  location: "~/ReadOnlyRaspberrian/YamlReader/example.yaml" #we have to make it possible to use both a package manager and files found on the internet
+  #requirements: ["python3.10", "package2"] #requirements should be both other defined versions of the system and other packages
+
+collection1:
+  packages:
+    Python3.10
+    Django
+  path: apt
+  requirements:
+    TestRequirement
+
+
+updateStructure:
+  name: 
+    "Python modules"
+  packages:
+    Python3.10
+    Django
+  source:
+    apt
